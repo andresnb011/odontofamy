@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    font-family: "Afacad", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/bg-header.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+}
+
+header nav {
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul a{
+    color: #f7f5fb;
+    margin: 0 12;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header ul a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+#hero {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 220px;
+    padding-bottom: 10%;
+}
+
+#hero h2 {
+    font-size: 60px;
+    color:#274c77 ;
+    font-weight: 600;
+}
+
+#hero h1 {
+    font-size: 30px;
+    color:#f7f5fb;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+#hero button{
+    background:#41bbd9;
+    color: #0a0a0a;
+    padding: 14px 30px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: #e36588;
+}
+
+#servicios{
+    width: 100%;
+    background:url(../img/fondocons.png);
+    position: relative;
+    padding: 110px 0px;
+    text-align: center;
+}
+
+#servicios h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    color: #f7f5fb;
+}
+
+#servicios p {
+    font-size: 22px;
+    margin-bottom: 50px;
+    color: #f7f5fb;
+}
+
+#servicios .fila{
+    display: flex;
+    justify-content: center;
+    border: #41bbd9
+}
+
+#servicios article{
+    margin: 20px 50px;
+    position: relative;
+}
+
+#servicios article h3{
+    position: absolute;
+    top: 120px;
+    color:#45062e;
+    width: 100%;
+
+}
+
+#NuestroPersonal {
+    width: 100%;
+    padding: 120px 50px;
+    background: url(../img/fondoem.png);
+    background-size: cover;
+    text-align: center;
+}
+
+#NuestroPersonal h2 {
+    color:#e36588;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#NuestroPersonal .fila {
+    display: flex;
+    justify-content: center;
+}
+
+#NuestroPersonal article {
+    margin: 30px 180px;
+}
+
+#NuestroPersonal h3 {
+    color:#e36588;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 80px;
+
+}
+#Encuentranos{
+    width: 100%;
+    min-height: 75vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    margin-bottom: 150px;
+    margin: 0 auto;
+    text-align: center;
+    background: #274c77;
+}
+#Encuentranos h2{
+margin-bottom: auto;
+}
+
+#Agendatucita {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+    background-color:#8a3e54;
+}
+
+#Agendatucita h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#Agendatucita p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#Agendatucita form{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#Agendatucita form input{
+    width: 38%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#Agendatucita form select{
+    width: 43%;
+    padding: 12px 40px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#Agendatucita button {
+    background: #274c77;
+    color: #f7f5fb;
+    font-size: 22px;
+    padding: 12px 30px;
+    border-radius: 6px;
+}
+
+form button:hover{
+    transform: scale(.8);
+    transition-duration: 1s;
+}
+
+footer {
+    background: #000;
+    color: #f7f5fb;
+    padding: 40px;
+    text-align: center;
+}
+
+img:hover{
+    transform: scale(0.8);
+    transition-duration: 0.5s;
+}
